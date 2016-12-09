@@ -1,7 +1,7 @@
-# JSON 스키마
+# [JSON 스키마](JSON-Schema.md)
 JSON 스키마 스펙을 번역했습니다.
 
-# JSON과 PYTHON API의 만남
+# [JSON과 PYTHON API의 만남](JSON-API.md)
 JSON 스키마를 이용하여 파이썬 API 에 이용한 것에 대한 고찰입니다.
 
 
