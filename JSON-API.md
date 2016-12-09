@@ -251,6 +251,7 @@ $ cat user-schema.json
 
 그 밖에도 object 등을 그 안에 정해서 중첩시킬 수도 있습니다.
 
+그 밖에 페친이 알려주신 [jsonschema.net](http://jsonschema.net/#/) 이라는 사이트가 있는데 위에 genson 보다 더 상세하고 자세히 스키마를 생성해 낼 수 있습니다. (API 로 제공하면 좋겠다는 생각이...)
 
 ## 3 특정 JSON 데이터가 해당 스키마에 맞는지 검증
 
@@ -492,8 +493,11 @@ On instance:
 
 `apitools` 라는 이름이 의미하듯이 JSON 스키마를 통하여 RestfulAPI 같이 테스트 API 서버 기능도 제공하는것 같습니다.
 
+참고로 웹사이트에 직접 들어가서 생성하는 것도 있습니다.
+[json-generator](http://www.json-generator.com) 라는 사이트 인데 표준 JSON 스키마 처럼 보이지는 않았습니다.
 
-## 5 기타 필요 모듈
+
+## 5 기타 필요 모듈 및 사이트
 
 파이썬에서 JSON 스키마를 받아들이고 이를 바탕으로 자동 파이썬 클래스화 해 주는 모듈이 있습니다.
 
@@ -501,6 +505,9 @@ On instance:
 * [warlock](https://github.com/bcwaldon/warlock)
 
 나중에 필요에 따라 이용하면 좋겠다는 느낌이 들었습니다. python-jsonschema-objects 가 좀 더 나아 보입니다.
+
+페친이 알려주신 [swagger-flex](https://github.com/pipermerriam/flex) 라고 있는데 아마도 API 스펙 및 자동화 등에 관한 것인 듯 합니다. (언제 시간되면 함 봐야 되겠네요... 문제는 시간이 없어서... T.T)
+
 
 
 ## 6 TODO
