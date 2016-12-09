@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "cellphone": {
+            "type": "string",
+            "pattern": "^[01]{3}-[0-9]{4}-[0-9]{4}$"
+        },
+        "age": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 150
+        },
+        "name": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string",
+            "maxLength": 50
+        }
+    },
+    "required": [
+        "age",
+        "name"
+    ]
+}
